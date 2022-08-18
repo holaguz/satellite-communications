@@ -35,8 +35,8 @@ def search_ber_qam(target: float, constellation_size: int, precision = default_p
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
-        print("Usage:\n{} constellation_size target_ber_base target_ber_power [epsilon]".format(sys.argv[0]))
-        print("\ni.e:\n{} 16 10 -6 returns the required Eb/No to achieve BER < 10^-6 on a 16 QAM system".format(sys.argv[0]))
+        print(f"Usage:\n{sys.argv[0]} constellation_size target_ber_base target_ber_power [epsilon]")
+        print(f"\ni.e:\n{sys.argv[0]} 16 10 -6 returns the required Eb/No to achieve BER < 10^-6 on a 16 QAM system")
         exit()
 
     M     = int( sys.argv[1] )

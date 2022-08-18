@@ -34,8 +34,8 @@ def search_ber_psk(target: float, constellation_size: int, precision = default_p
 if __name__ == "__main__":
 
     if len(sys.argv) < 4:
-        print("Usage: {} constellation_size target_ber_base target_ber_power [epsilon]".format(sys.argv[0]))
-        print("i.e. {} 16 10 -6 returns the required Eb/No to achieve BER < 10^-6 on a 16 PSK system")
+        print(f"Usage: {sys.argv[0]} constellation_size target_ber_base target_ber_power [epsilon]")
+        print(f"i.e. {sys.argv[0]} 16 10 -6 returns the required Eb/No to achieve BER < 10^-6 on a 16 PSK system")
         sys.exit()
 
     M     = int( sys.argv[1] )
