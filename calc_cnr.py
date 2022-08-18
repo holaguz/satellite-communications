@@ -31,8 +31,8 @@ ax.set_title   ("CNR vs. Elevation angle (normalized to 0 dB)")
 ax.set_xlabel  ("Elevation angle $\phi_l$ [deg]")
 ax.set_ylabel  ("CNR/$N_0$")
 
-plt.savefig ("../output/cnr_norm_vs_angle.svg")
-plt.savefig ("../output/cnr_norm_vs_angle.png")
+plt.savefig ("output/cnr_norm_vs_angle.svg")
+plt.savefig ("output/cnr_norm_vs_angle.png")
 
 plt.tight_layout()
 plt.show()

@@ -5,7 +5,6 @@ import pandas as pd
 from ber_psk import search_ber_psk
 from ber_qam import search_ber_qam
 from fsl_vs_phi_l import distance, fsl, elevation_angle_to_earth_angle
-from compare_ebno import pass_time
 from sky_temperature import get_sky_temperature
 from ber_psk import BER
 from rx_temperature import get_rx_temperature
@@ -70,8 +69,8 @@ plt.grid()
 
 plt.tight_layout()
 
-plt.savefig("../output/maximum_bitrate_uplink.png")
-plt.savefig("../output/maximum_bitrate_uplink.svg")
+plt.savefig("output/maximum_bitrate_uplink.png")
+plt.savefig("output/maximum_bitrate_uplink.svg")
 
 plt.show()
 

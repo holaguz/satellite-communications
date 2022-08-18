@@ -49,7 +49,7 @@ if __name__ == "__main__":
     plt.grid(True, axis="both")
     plt.tight_layout()
 
-    plt.savefig ("../output/sky_temperature_vs_angle.svg")
-    plt.savefig ("../output/sky_temperature_vs_angle.png")
+    plt.savefig ("output/sky_temperature_vs_angle.svg")
+    plt.savefig ("output/sky_temperature_vs_angle.png")
 
     plt.show()

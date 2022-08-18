@@ -147,8 +147,8 @@ if __name__ == "__main__":
     ax0.grid(True, axis="both", which="both")
     ax1.grid(True, axis="both", which="both")
 
-    fig.savefig ("../output/rx_temperature_vs_angle.png")
-    fig.savefig ("../output/rx_temperature_vs_angle.svg")
+    fig.savefig ("output/rx_temperature_vs_angle.png")
+    fig.savefig ("output/rx_temperature_vs_angle.svg")
 
     fig.tight_layout()
 

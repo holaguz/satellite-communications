@@ -157,11 +157,11 @@ top_ax.grid(True, which="minor", axis="y")
 # top_ax.minorticks_on()
 
 fig1.tight_layout()
-fig1.savefig ("../output/ebno_vs_angle.svg")
-fig1.savefig ("../output/ebno_vs_angle.png")
+fig1.savefig ("output/ebno_vs_angle.svg")
+fig1.savefig ("output/ebno_vs_angle.png")
 
 fig2.tight_layout()
-fig2.savefig ("../output/data_throughput.svg")
-fig2.savefig ("../output/data_throughput.png")
+fig2.savefig ("output/data_throughput.svg")
+fig2.savefig ("output/data_throughput.png")
 
 plt.show()

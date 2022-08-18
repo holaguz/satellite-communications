@@ -46,8 +46,8 @@ if __name__ == "__main__":
     plt.xlabel  ("Elevation angle $\phi_l$ [deg]")
     plt.ylabel  ("Distance [km]")
 
-    plt.savefig ("../output/distance.svg")
-    plt.savefig ("../output/distance.png")
+    plt.savefig ("output/distance.svg")
+    plt.savefig ("output/distance.png")
 
     plt.show()
 
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     plt.xlabel  ("Elevation angle $\phi_l$ [deg]")
     plt.ylabel  ("FSL [dB]")
 
-    plt.savefig ("../output/fsl.svg")
-    plt.savefig ("../output/fsl.png")
+    plt.savefig ("output/fsl.svg")
+    plt.savefig ("output/fsl.png")
 
     plt.show()
